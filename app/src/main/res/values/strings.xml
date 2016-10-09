@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">A-B-M Contactos</string>
+    <string name="nombrePersona">Nombre</string>
+    <string name="telefonoPersona">Teléfono</string>
+    <string name="correoPersona">E-Mail</string>
+    <string name="descPersona">Descripción</string>
+    <string name="fechaPersona">Fecha</string>
+    <string name="botonSiguiente">Siguiente</string>
+    <string name="botonAtras">Atras</string>
+
+</resources>
