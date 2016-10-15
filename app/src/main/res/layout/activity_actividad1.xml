@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,6 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
     tools:context="com.example.javier.abmcontactos.Actividad1">
 
 
@@ -32,7 +33,6 @@
         android:hint="@string/telefonoPersona"
         android:singleLine="true"
         android:inputType="textPersonName"
-        android:layout_below="@+id/campoNombre"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:textStyle="bold"
@@ -46,7 +46,6 @@
         android:hint="@string/correoPersona"
         android:singleLine="true"
         android:inputType="textEmailAddress"
-        android:layout_below="@+id/campoTelefono"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:textStyle="bold"
@@ -59,23 +58,21 @@
         android:ems="10"
         android:hint="@string/descPersona"
         android:singleLine="true"
-        android:inputType="text"
-        android:layout_below="@id/campoMail"
+        android:inputType="textPersonName"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:textStyle="bold"
         android:textSize="@dimen/camposConctacto"/>
 
     <DatePicker
+        android:layout_width="wrap_content"
+        android:layout_height="158dp"
         android:id="@+id/campoFecha"
-        android:hint="@string/fechaPersona"
-        android:layout_width="match_parent"
-        android:layout_below="@+id/campoDesc"
-        android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
+        android:scrollbarSize="1dp"
+        android:scaleX=".7"
+        android:scaleY=".7"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:textSize="@dimen/camposConctacto"/>
+        android:layout_alignParentStart="true" />
 
     <Button
         android:id="@+id/botonSiguiente"
@@ -88,4 +85,4 @@
         android:textSize="@dimen/camposConctacto"/>
 
 
-</RelativeLayout>
+</LinearLayout>

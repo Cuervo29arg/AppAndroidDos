@@ -6,6 +6,9 @@
     <string name="descPersona">Descripción</string>
     <string name="fechaPersona">Fecha</string>
     <string name="botonSiguiente">Siguiente</string>
-    <string name="botonAtras">Atras</string>
+    <string name="botonAtras">Editar</string>
+    <string name="pFecha_nacimientoYear">fechaNacimientoAño</string>
+    <string name="pFecha_nacimientoDay">fechaNacimientoDia</string>
+    <string name="pFecha_nacimientoMonth">fechaNacimientoMes</string>
 
 </resources>
